@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="trustmavish@2024"/>
+    <parameter name="url" value="https://login.salesforce.com"/>
+    <parameter name="username" value="Vishal@testleaf.com"/>
+    <classes>
+      <class name="com.base.S11_06_CreateAccounts">
+        <methods>
+          <include name="post"/>
+          <include name="pre"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- com.base.S11_06_CreateAccounts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

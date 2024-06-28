@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-28T16:01:21 IST" name="Suite" finished-at="2024-06-28T16:01:38 IST" duration-ms="17455">
+    <groups>
+    </groups>
+    <test started-at="2024-06-28T16:01:21 IST" name="Test" finished-at="2024-06-28T16:01:38 IST" duration-ms="17455">
+      <class name="com.base.DataPro">
+        <test-method is-config="true" signature="pre(java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:21 IST" name="pre" finished-at="2024-06-28T16:01:28 IST" duration-ms="6897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pre -->
+        <test-method signature="tc3(java.lang.String,java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:28 IST" name="tc3" data-provider="getdata" finished-at="2024-06-28T16:01:28 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jhg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="post(org.testng.ITestResult)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:28 IST" name="post" finished-at="2024-06-28T16:01:28 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=DataPro.tc3(java.lang.String,java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method is-config="true" signature="pre(java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:28 IST" name="pre" finished-at="2024-06-28T16:01:35 IST" duration-ms="6747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pre -->
+        <test-method signature="tc3(java.lang.String,java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:35 IST" name="tc3" data-provider="getdata" finished-at="2024-06-28T16:01:38 IST" duration-ms="2872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vishal@testleaf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trustmavish@2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="post(org.testng.ITestResult)[pri:0, instance:com.base.DataPro@17f9d882]" started-at="2024-06-28T16:01:38 IST" name="post" finished-at="2024-06-28T16:01:38 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=DataPro.tc3(java.lang.String,java.lang.String)[pri:0, instance:com.base.DataPro@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- com.base.DataPro -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
